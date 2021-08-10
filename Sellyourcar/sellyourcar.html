@@ -79,7 +79,7 @@
 	<div class="container">
 	<div class="row">
 	<div class="col-sm-12 center-block">
-	<div class="col-sm-6 hidden-xs" id="logo"><a href="https://www.gorillathemes.com/demo/automotive/" class="custom-logo-link" rel="home"><img src="https://www.gorillathemes.com/demo/automotive/wp-content/uploads/2018/12/automotive-logo.png" class="custom-logo" alt="Automotive" srcset="https://www.gorillathemes.com/demo/automotive/wp-content/uploads/2018/12/automotive-logo.png 893w, https://www.gorillathemes.com/demo/automotive/wp-content/uploads/2018/12/automotive-logo-768x225.png 768w" sizes="(max-width: 893px) 100vw, 893px"></a></div><div class="col-sm-6 hidden-xs" id="phone">
+	<div class="col-sm-6 hidden-xs" id="logo">></div><div class="col-sm-6 hidden-xs" id="phone">
 	<div class="call-us">
 	<a class="font" href="tel:+2547.01465.379">
 	+2547.01465.379 </a>
@@ -230,20 +230,20 @@
 	<span class="instructions">Images will be automatically resized to fit the listing layout. We recommend that you upload photos in full resolution for better results.</span>
 	<span class="instructions-cont">You may upload up to 12 images and each image may be no larger than 5MB</span>
 	<div id="upload-result">
-		<table id="uploaded-files" style="display: table;">
-			<thead>
-			<tr>
-			<th>Preview</th>
-			<th>Name</th>
-			<th>Size</th>
-			<th>Status</th>
-			<th></th>
-			</tr>
-			</thead>
-			<tbody><tr><td class="thumb"><img class="gt-thumb" src="https://www.gorillathemes.com/demo/automotive/wp-content/uploads/2021/08/117684205_lotus.jpg"></td><td class="name">_117684205_lotus.jpg</td><td class="size">111.21 KB</td><td class="status"><span class="gt-success">Complete</span></td><td class="operations"><a class="gt-remove btn-default button tiny round alert" href="javascript:;">Remove</a></td></tr></tbody>
-			</table>
-	</div>
-	</div>
+		<table id="uploaded-files">
+		<thead>
+		<tr>
+		<th>Preview</th>
+		<th>Name</th>
+		<th>Size</th>
+		<th>Status</th>
+		<th></th>
+		</tr>
+		</thead>
+		<tbody></tbody>
+		</table>
+		</div>
+		</div>
 	<h3 class="form-subtitle">Personal Information</h3>
 	<label class="sr-only" for="gt-firstname">First Name</label>
 	<input class="form-control" type="text" id="gt-firstname" value="" tabindex="22" name="firstname" placeholder="Enter first name" required="">
@@ -380,44 +380,45 @@
 			 </script>
 	<div style="clear:both"></div>
 	</div>
-	<div class="side-widget"><h3 class="search-title">Deal of the Week</h3> 
-		<div class="deals">
-			<a href="../inventory/viewdetail1.html">
-			<img width="640" height="480" src="https://www.gorillathemes.com/demo/automotive/wp-content/uploads/2018/12/honda-accord-640x480.jpg" class="img-responsive" alt="Honda Accord" loading="lazy" srcset="https://www.gorillathemes.com/demo/automotive/wp-content/uploads/2018/12/honda-accord-640x480.jpg 640w, https://www.gorillathemes.com/demo/automotive/wp-content/uploads/2018/12/honda-accord-768x576.jpg 768w, https://www.gorillathemes.com/demo/automotive/wp-content/uploads/2018/12/honda-accord.jpg 1280w" sizes="(max-width: 640px) 100vw, 640px" /> <span class="top-deals">
-			<span class="top-deals-title">
-			Honda Accord
-			<span class="top-deals-price">
-			$28,555 </span>
-			</span>
-			</span>
-			</a>
-			</div>
-	<div clear="both"></div>
-	<div class="deals">
-		<a href="../inventory/viewdetail8.html">
-		<img width="640" height="480" src="https://www.gorillathemes.com/demo/automotive/wp-content/uploads/2018/12/nissan1-640x480.jpg" sizes="(max-width: 640px) 100vw, 640px" /> <span class="top-deals">
-		<span class="top-deals-title">
-		2012 Nissan 370Z
-		<span class="top-deals-price">
-		$30,998 </span>
-		</span>
-		</span>
-		</a>
-		</div>
-	<div clear="both"></div>
-	<div class="deals">
-		<a href="../inventory/viewdetail10.html">
-		<img width="640" height="480" src="https://www.gorillathemes.com/demo/automotive/wp-content/uploads/2018/12/jeepg4-640x480.jpg" class="img-responsive" alt="" loading="lazy" srcset="https://www.gorillathemes.com/demo/automotive/wp-content/uploads/2018/12/rl7-640x480.jpg 640w, https://www.gorillathemes.com/demo/automotive/wp-content/uploads/2018/12/rl7-768x576.jpg 768w, https://www.gorillathemes.com/demo/automotive/wp-content/uploads/2018/12/rl7.jpg 1280w" sizes="(max-width: 640px) 100vw, 640px" /> <span class="top-deals">
-		<span class="top-deals-title">
-			2011 Jeep Grand Cherokee
-		<span class="top-deals-price">
-			$37,998</span>
-		</span>
-		</span>
-		</a>
-		</div>
-	<div clear="both"></div>
-	</div> </div> </div> 
+	<div class="side-widget"><h3 class="search-title">Deal of the Week</h3> <div class="deals">
+        <a href="viewdetail1.html">
+        <img width="640" height="480" src="../Assets/images/honda-accord-110x90.jpg" class="img-responsive" alt="Honda Accord" loading="lazy" sizes="(max-width: 640px) 100vw, 640px" /> <span class="top-deals">
+        <span class="top-deals-title">
+        Honda Accord
+        <span class="top-deals-price">
+        $28,555 </span>
+        </span>
+        </span>
+        </a>
+        </div>
+        <div clear="both"></div>
+        <div class="deals">
+        <a href="viewdetail8.html">
+        <img width="640" height="480" src="../Assets/images/nissan1-640x480.jpg" sizes="(max-width: 640px) 100vw, 640px" /> <span class="top-deals">
+        <span class="top-deals-title">
+        2012 Nissan 370Z
+        <span class="top-deals-price">
+        $30,998 </span>
+        </span>
+        </span>
+        </a>
+        </div>
+        <div clear="both"></div>
+        <div class="deals">
+        <a href="viewdetail10.html">
+        <img width="640" height="480" src="../Assets/images/2011-jeep-grand-cherokee-pricing-and-options-leaked-photo-324801-s-original.jpg" class="img-responsive" alt="" loading="lazy"  sizes="(max-width: 640px) 100vw, 640px" /> <span class="top-deals">
+        <span class="top-deals-title">
+            2011 Jeep Grand Cherokee
+        <span class="top-deals-price">
+            $37,998</span>
+        </span>
+        </span>
+        </a>
+        </div>
+        <div clear="both"></div>
+        </div> 
+    
+    </div> </div>
 	<div class="container-fluid footer">
 	<div class="row">
 	<div id="footer">
